@@ -29,7 +29,7 @@ for line in TM:
 
 # Adding grammar rules
 res_grammar = defaultdict(list)
-res_grammar['A1'] += [start_state + ' A2']
+res_grammar['A1'] += ['[' + eps + ',' + 'B]' + 'A1'] + [start_state + ' A2']
 res_grammar['A2'] += ['[' + a + ',' + a + ']' + 'A2' for a in sigma_alphabet] + ['A3']
 res_grammar['A3'] += ['[' + eps + ',' + 'B]' + 'A3'] + [eps]
 

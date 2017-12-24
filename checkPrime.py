@@ -28,7 +28,7 @@ else :
 
     flag, result = markov.run(grammar, precompile)
     if flag:
-        print('OK')
+        print('Its a prime number')
         solution = open('solution.txt', 'w')
         solution.writelines(result)
         solution.close()
