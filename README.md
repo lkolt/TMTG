@@ -1,1 +1,1 @@
-# TMTG
+# Turing machine to grammar type zero and one converter

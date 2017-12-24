@@ -1,0 +1,3361 @@
+[ ,B]START[1,1] -> START[ ,B][1,1]
+START[ ,B] -> [ ,$]OOO
+OOO[1,1] -> [1,1]OOO
+OOO[0,0] -> [0,0]OOO
+OOO[1,1] -> [1,1]OOO
+OOO[1,1] -> [1,1]OOO
+[1,1]OOO[ ,B] -> III[1,1][ ,B]
+[1,1]III[1,1] -> CCB[1,1][1,b]
+[0,0]CCB[1,1] -> CCB[0,0][1,1]
+[1,1]CCB[0,0] -> CCB[1,1][0,0]
+[ ,$]CCB[1,1] -> CCB[ ,$][1,1]
+[ ,B]CCB[ ,$] -> CCB[ ,B][ ,$]
+CCB[ ,B] -> [ ,1]OOO
+OOO[ ,$] -> [ ,$]OOO
+OOO[1,1] -> [1,1]OOO
+OOO[0,0] -> [0,0]OOO
+OOO[1,1] -> [1,1]OOO
+[1,1]OOO[1,b] -> III[1,1][1,b]
+[0,0]III[1,1] -> CCB[0,0][1,b]
+[1,1]CCB[0,0] -> CCB[1,1][0,0]
+[ ,$]CCB[1,1] -> CCB[ ,$][1,1]
+[ ,1]CCB[ ,$] -> CCB[ ,1][ ,$]
+[ ,B]CCB[ ,1] -> CCB[ ,B][ ,1]
+CCB[ ,B] -> [ ,1]OOO
+OOO[ ,1] -> [ ,1]OOO
+OOO[ ,$] -> [ ,$]OOO
+OOO[1,1] -> [1,1]OOO
+OOO[0,0] -> [0,0]OOO
+[0,0]OOO[1,b] -> III[0,0][1,b]
+[1,1]III[0,0] -> CCV[1,1][0,a]
+[ ,$]CCV[1,1] -> CCV[ ,$][1,1]
+[ ,1]CCV[ ,$] -> CCV[ ,1][ ,$]
+[ ,1]CCV[ ,1] -> CCV[ ,1][ ,1]
+[ ,B]CCV[ ,1] -> CCV[ ,B][ ,1]
+CCV[ ,B] -> [ ,0]OOO
+OOO[ ,1] -> [ ,1]OOO
+OOO[ ,1] -> [ ,1]OOO
+OOO[ ,$] -> [ ,$]OOO
+OOO[1,1] -> [1,1]OOO
+[1,1]OOO[0,a] -> III[1,1][0,a]
+[ ,$]III[1,1] -> CCB[ ,$][1,b]
+[ ,1]CCB[ ,$] -> CCB[ ,1][ ,$]
+[ ,1]CCB[ ,1] -> CCB[ ,1][ ,1]
+[ ,0]CCB[ ,1] -> CCB[ ,0][ ,1]
+[ ,B]CCB[ ,0] -> CCB[ ,B][ ,0]
+CCB[ ,B] -> [ ,1]OOO
+OOO[ ,0] -> [ ,0]OOO
+OOO[ ,1] -> [ ,1]OOO
+OOO[ ,1] -> [ ,1]OOO
+OOO[ ,$] -> [ ,$]OOO
+[ ,$]OOO[1,b] -> III[ ,$][1,b]
+III[ ,$] -> [ ,$]CCC
+CCC[1,b] -> [1,1]CCC
+CCC[0,a] -> [0,0]CCC
+CCC[1,b] -> [1,1]CCC
+CCC[1,b] -> [1,1]CCC
+[1,1]CCC[ ,B] -> CCC[1,1][ ,B]
+[1,1]CCC[1,1] -> CCC[1,1][1,1]
+[0,0]CCC[1,1] -> CCC[0,0][1,1]
+[1,1]CCC[0,0] -> CCC[1,1][0,0]
+[ ,$]CCC[1,1] -> CCC[ ,$][1,1]
+CCC[ ,$] -> [ ,$]qJJJ
+qJJJ[1,1] -> [1,1]qJJJ
+qJJJ[0,0] -> [0,0]qJJJ
+qJJJ[1,1] -> [1,1]qJJJ
+qJJJ[1,1] -> [1,1]qJJJ
+[1,1]qJJJ[ ,B] -> ZZZ[1,1][ ,*]
+[1,1]ZZZ[1,1] -> ZZZ[1,1][1,1]
+[0,0]ZZZ[1,1] -> ZZZ[0,0][1,1]
+[1,1]ZZZ[0,0] -> ZZZ[1,1][0,0]
+[ ,$]ZZZ[1,1] -> ZZZ[ ,$][1,1]
+ZZZ[ ,$] -> [ ,$]UUU
+UUU[1,1] -> [1,b]AAC
+AAC[0,0] -> [0,0]AAC
+AAC[1,1] -> [1,1]AAC
+AAC[1,1] -> [1,1]AAC
+AAC[ ,*] -> [ ,*]AAC
+[ ,*]AAC[ ,B] -> ZZZ[ ,*][ ,1]
+[1,1]ZZZ[ ,*] -> ZZZ[1,1][ ,*]
+[1,1]ZZZ[1,1] -> ZZZ[1,1][1,1]
+[0,0]ZZZ[1,1] -> ZZZ[0,0][1,1]
+[1,b]ZZZ[0,0] -> ZZZ[1,b][0,0]
+ZZZ[1,b] -> [1,b]UUU
+UUU[0,0] -> [0,a]AAB
+AAB[1,1] -> [1,1]AAB
+AAB[1,1] -> [1,1]AAB
+AAB[ ,*] -> [ ,*]AAB
+AAB[ ,1] -> [ ,1]AAB
+[ ,1]AAB[ ,B] -> ZZZ[ ,1][ ,0]
+[ ,*]ZZZ[ ,1] -> ZZZ[ ,*][ ,1]
+[1,1]ZZZ[ ,*] -> ZZZ[1,1][ ,*]
+[1,1]ZZZ[1,1] -> ZZZ[1,1][1,1]
+[0,a]ZZZ[1,1] -> ZZZ[0,a][1,1]
+ZZZ[0,a] -> [0,a]UUU
+UUU[1,1] -> [1,b]AAC
+AAC[1,1] -> [1,1]AAC
+AAC[ ,*] -> [ ,*]AAC
+AAC[ ,1] -> [ ,1]AAC
+AAC[ ,0] -> [ ,0]AAC
+[ ,0]AAC[ ,B] -> ZZZ[ ,0][ ,1]
+[ ,1]ZZZ[ ,0] -> ZZZ[ ,1][ ,0]
+[ ,*]ZZZ[ ,1] -> ZZZ[ ,*][ ,1]
+[1,1]ZZZ[ ,*] -> ZZZ[1,1][ ,*]
+[1,b]ZZZ[1,1] -> ZZZ[1,b][1,1]
+ZZZ[1,b] -> [1,b]UUU
+UUU[1,1] -> [1,b]AAC
+AAC[ ,*] -> [ ,*]AAC
+AAC[ ,1] -> [ ,1]AAC
+AAC[ ,0] -> [ ,0]AAC
+AAC[ ,1] -> [ ,1]AAC
+[ ,1]AAC[ ,B] -> ZZZ[ ,1][ ,1]
+[ ,0]ZZZ[ ,1] -> ZZZ[ ,0][ ,1]
+[ ,1]ZZZ[ ,0] -> ZZZ[ ,1][ ,0]
+[ ,*]ZZZ[ ,1] -> ZZZ[ ,*][ ,1]
+[1,b]ZZZ[ ,*] -> ZZZ[1,b][ ,*]
+ZZZ[1,b] -> [1,b]UUU
+[1,b]UUU[ ,*] -> AAA[1,b][ ,*]
+[1,b]AAA[1,b] -> AAA[1,b][1,1]
+[0,a]AAA[1,b] -> AAA[0,a][1,1]
+[1,b]AAA[0,a] -> AAA[1,b][0,0]
+[ ,$]AAA[1,b] -> AAA[ ,$][1,1]
+AAA[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+[ ,1]JJJ[ ,B] -> HHH[ ,1][ ,B]
+[ ,1]HHH[ ,1] -> VVV[ ,1][ ,0]
+[ ,0]VVV[ ,1] -> VVV[ ,0][ ,1]
+[ ,1]VVV[ ,0] -> VVV[ ,1][ ,0]
+[ ,*]VVV[ ,1] -> VVV[ ,*][ ,1]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,*]QQQ[ ,1] -> QQQ[ ,*][ ,1]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,1] -> TTT[ ,*][ ,1]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,*]SSD[ ,1] -> SSD[ ,*][ ,1]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,0]MML[1,a] -> MML[0,0][1,a]
+MML[0,0] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,*]QQA[ ,1] -> SSD[ ,*][ ,b]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,a]MMK[1,b] -> MMK[1,a][1,b]
+[0,a]MMK[1,a] -> MMK[0,a][1,a]
+[1,1]MMK[0,a] -> MMK[1,1][0,a]
+MMK[1,1] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,*]QQA[ ,b] -> QQA[ ,*][ ,b]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,a]SSS[1,a] -> SSS[0,a][1,a]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,*]SSQ[ ,1] -> SSQ[ ,*][ ,1]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,0]TTT[1,0] -> TTT[0,0][1,0]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,*]SSD[ ,1] -> SSD[ ,*][ ,1]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,0]MMK[1,0] -> MMM[0,0][1,b]
+[1,0]MMM[0,0] -> MMM[1,0][0,1]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,1] -> [0,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+[ ,0]PPP[ ,B] -> RRY[ ,0][ ,B]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,*]RRY[ ,1] -> RRY[ ,*][ ,1]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,1]RRT[1,1] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+[ ,0]JJJ[ ,B] -> HHH[ ,0][ ,B]
+[ ,1]HHH[ ,0] -> HHH[ ,1][ ,1]
+[ ,0]HHH[ ,1] -> VVV[ ,0][ ,0]
+[ ,1]VVV[ ,0] -> VVV[ ,1][ ,0]
+[ ,*]VVV[ ,1] -> VVV[ ,*][ ,1]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,*]QQQ[ ,1] -> QQQ[ ,*][ ,1]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,1] -> TTT[ ,*][ ,1]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,*]SSD[ ,1] -> SSD[ ,*][ ,1]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,1]MML[1,a] -> MML[1,1][1,a]
+MML[1,1] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,b]MML[1,a] -> MML[1,b][1,a]
+[0,0]MML[1,b] -> MML[0,0][1,b]
+MML[0,0] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,*]QQA[ ,1] -> SSD[ ,*][ ,b]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,b]MMK[1,a] -> MMK[1,b][1,a]
+[0,a]MMK[1,b] -> MMK[0,a][1,b]
+[1,1]MMK[0,a] -> MMK[1,1][0,a]
+MMK[1,1] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,*]QQA[ ,b] -> QQA[ ,*][ ,b]
+[1,a]QQA[ ,*] -> SSS[1,a][ ,*]
+[1,b]SSS[1,a] -> SSS[1,b][1,a]
+[0,a]SSS[1,b] -> SSS[0,a][1,b]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,*]SSQ[ ,1] -> SSQ[ ,*][ ,1]
+[1,0]SSQ[ ,*] -> GGG[1,0][ ,*]
+[1,1]GGG[1,0] -> GGG[1,1][1,0]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[1,0] -> TTT[1,1][1,0]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,*]SSD[ ,1] -> SSD[ ,*][ ,1]
+[1,0]SSD[ ,*] -> MMK[1,0][ ,*]
+[1,1]MMK[1,0] -> MMM[1,1][1,b]
+MMM[1,1] -> [1,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,0]MML[1,b] -> MML[1,0][1,b]
+MML[1,0] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,0]MML[1,a] -> MML[0,0][1,a]
+MML[0,0] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,*]QQA[ ,1] -> SSD[ ,*][ ,b]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,a]MMK[1,b] -> MMK[1,a][1,b]
+[0,a]MMK[1,a] -> MMK[0,a][1,a]
+[1,0]MMK[0,a] -> MMK[1,0][0,a]
+[ ,$]MMK[1,0] -> MMM[ ,$][1,b]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[0,a] -> [0,0]PPP
+PPP[1,a] -> [1,0]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+[ ,1]PPP[ ,B] -> RRY[ ,1][ ,B]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,*]RRY[ ,1] -> RRY[ ,*][ ,1]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,0]RRT[1,1] -> RRT[1,0][1,B]
+[0,0]RRT[1,0] -> RRT[0,0][1,B]
+[1,1]RRT[0,0] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+[ ,1]JJJ[ ,B] -> HHH[ ,1][ ,B]
+[ ,0]HHH[ ,1] -> VVV[ ,0][ ,0]
+[ ,0]VVV[ ,0] -> VVV[ ,0][ ,0]
+[ ,1]VVV[ ,0] -> VVV[ ,1][ ,0]
+[ ,*]VVV[ ,1] -> VVV[ ,*][ ,1]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,*]QQQ[ ,1] -> QQQ[ ,*][ ,1]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,1] -> TTT[ ,*][ ,1]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,1]MML[1,b] -> MML[1,1][1,b]
+MML[1,1] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,0]MML[1,b] -> MML[0,0][1,b]
+MML[0,0] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,*]QQA[ ,1] -> SSD[ ,*][ ,b]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,a]MMK[1,b] -> MMK[0,a][1,b]
+[1,1]MMK[0,a] -> MMK[1,1][0,a]
+MMK[1,1] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,*]QQA[ ,b] -> QQA[ ,*][ ,b]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,b]SSS[1,b] -> SSS[1,b][1,b]
+[0,a]SSS[1,b] -> SSS[0,a][1,b]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,*]SSQ[ ,1] -> SSQ[ ,*][ ,1]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,1]MML[1,b] -> MML[1,1][1,b]
+MML[1,1] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,*]SSF[ ,1] -> SSF[ ,*][ ,1]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,0]MML[1,b] -> MML[0,0][1,b]
+MML[0,0] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,*]QQA[ ,1] -> SSD[ ,*][ ,b]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,a]MMK[1,b] -> MMK[0,a][1,b]
+[1,0]MMK[0,a] -> MMK[1,0][0,a]
+[ ,$]MMK[1,0] -> MMM[ ,$][1,b]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[0,a] -> [0,0]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,a] -> [ ,0]PPP
+[ ,0]PPP[ ,B] -> RRY[ ,0][ ,B]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,*]RRY[ ,1] -> RRY[ ,*][ ,1]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,0]RRT[1,1] -> RRT[0,0][1,B]
+[1,1]RRT[0,0] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+[ ,0]JJJ[ ,B] -> HHH[ ,0][ ,B]
+[ ,0]HHH[ ,0] -> HHH[ ,0][ ,1]
+[ ,0]HHH[ ,0] -> HHH[ ,0][ ,1]
+[ ,1]HHH[ ,0] -> HHH[ ,1][ ,1]
+[ ,*]HHH[ ,1] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,1] -> QQQ[ ,1][ ,1]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,1]SSD[ ,1] -> SSD[ ,1][ ,1]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,1]MMK[1,a] -> MMK[1,1][1,a]
+MMK[1,1] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,a]MMK[1,a] -> MMK[1,a][1,a]
+[0,0]MMK[1,a] -> MMK[0,0][1,a]
+[1,1]MMK[0,0] -> MMM[1,1][0,b]
+MMM[1,1] -> [1,0]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,a]MML[1,a] -> MML[1,a][1,a]
+[0,b]MML[1,a] -> MML[0,b][1,a]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,a]QQA[ ,*] -> SSS[1,a][ ,*]
+[1,a]SSS[1,a] -> SSS[1,a][1,a]
+[0,b]SSS[1,a] -> SSS[0,b][1,a]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,0]SSQ[ ,*] -> GGG[1,0][ ,*]
+[1,0]GGG[1,0] -> GGG[1,0][1,0]
+[0,1]GGG[1,0] -> GGG[0,1][1,0]
+GGG[0,1] -> [0,1]TTT
+[0,1]TTT[1,0] -> TTT[0,1][1,0]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,1]SSD[ ,1] -> SSD[ ,1][ ,1]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,0]SSD[ ,*] -> MMK[1,0][ ,*]
+[1,0]MMK[1,0] -> MMM[1,0][1,b]
+[0,1]MMM[1,0] -> MMM[0,1][1,1]
+MMM[0,1] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,a]MMK[1,b] -> MMK[1,a][1,b]
+[0,0]MMK[1,a] -> MMK[0,0][1,a]
+[1,0]MMK[0,0] -> MMM[1,0][0,b]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,b] -> [0,1]PPP
+PPP[1,a] -> [1,0]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,b] -> [ ,1]PPP
+[ ,1]PPP[ ,B] -> RRY[ ,1][ ,B]
+[ ,1]RRY[ ,1] -> RRY[ ,1][ ,1]
+[ ,1]RRY[ ,1] -> RRY[ ,1][ ,1]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,0]RRT[1,1] -> RRT[1,0][1,B]
+[0,1]RRT[1,0] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+[ ,1]JJJ[ ,B] -> HHH[ ,1][ ,B]
+[ ,1]HHH[ ,1] -> VVV[ ,1][ ,0]
+[ ,1]VVV[ ,1] -> VVV[ ,1][ ,1]
+[ ,0]VVV[ ,1] -> VVV[ ,0][ ,1]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,1] -> QQQ[ ,1][ ,1]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,1]SSF[ ,1] -> SSF[ ,1][ ,1]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,a]MMK[1,b] -> MMK[1,a][1,b]
+[0,0]MMK[1,a] -> MMK[0,0][1,a]
+[1,1]MMK[0,0] -> MMM[1,1][0,b]
+MMM[1,1] -> [1,0]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,b]MML[1,a] -> MML[0,b][1,a]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,b]SSS[1,a] -> SSS[0,b][1,a]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,1]TTT[1,0] -> TTT[0,1][1,0]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,1]SSF[ ,1] -> SSF[ ,1][ ,1]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,1]MMK[1,0] -> MMM[0,1][1,b]
+MMM[0,1] -> [0,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,0]MMK[1,b] -> MMK[0,0][1,b]
+[1,0]MMK[0,0] -> MMM[1,0][0,b]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,b] -> [0,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+[ ,0]PPP[ ,B] -> RRY[ ,0][ ,B]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,1]RRY[ ,1] -> RRY[ ,1][ ,1]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,1]RRT[1,1] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+[ ,0]JJJ[ ,B] -> HHH[ ,0][ ,B]
+[ ,1]HHH[ ,0] -> HHH[ ,1][ ,1]
+[ ,1]HHH[ ,1] -> VVV[ ,1][ ,0]
+[ ,0]VVV[ ,1] -> VVV[ ,0][ ,1]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,1]MML[1,a] -> MML[1,1][1,a]
+MML[1,1] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,b]MMK[1,a] -> MMK[1,b][1,a]
+[0,0]MMK[1,b] -> MMK[0,0][1,b]
+[1,1]MMK[0,0] -> MMM[1,1][0,b]
+MMM[1,1] -> [1,0]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,b]MML[1,a] -> MML[1,b][1,a]
+[0,b]MML[1,b] -> MML[0,b][1,b]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,a]QQA[ ,*] -> SSS[1,a][ ,*]
+[1,b]SSS[1,a] -> SSS[1,b][1,a]
+[0,b]SSS[1,b] -> SSS[0,b][1,b]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,0]SSQ[ ,*] -> GGG[1,0][ ,*]
+[1,1]GGG[1,0] -> GGG[1,1][1,0]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[1,0] -> TTT[1,1][1,0]
+[0,1]TTT[1,1] -> TTT[0,1][1,1]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,0]SSD[ ,*] -> MMK[1,0][ ,*]
+[1,1]MMK[1,0] -> MMM[1,1][1,b]
+MMM[1,1] -> [1,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,0]MML[1,b] -> MML[1,0][1,b]
+MML[1,0] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,a]MMK[1,b] -> MMK[1,a][1,b]
+[0,1]MMK[1,a] -> MMK[0,1][1,a]
+MMK[0,1] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,a]MML[1,a] -> MML[0,a][1,a]
+[1,0]MML[0,a] -> MML[1,0][0,a]
+MML[1,0] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,a]SSS[1,a] -> SSS[0,a][1,a]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,0]TTT[1,0] -> TTT[0,0][1,0]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,1]SSD[ ,0] -> SSD[ ,1][ ,0]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,0]MML[1,a] -> MML[1,0][1,a]
+MML[1,0] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,a]MMK[1,a] -> MMK[1,a][1,a]
+[0,0]MMK[1,a] -> MMK[0,0][1,a]
+[1,0]MMK[0,0] -> MMM[1,0][0,b]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,b] -> [0,1]PPP
+PPP[1,a] -> [1,0]PPP
+PPP[1,a] -> [1,0]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+[ ,1]PPP[ ,B] -> RRY[ ,1][ ,B]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,0]RRY[ ,*] -> RRT[1,0][ ,*]
+[1,0]RRT[1,0] -> RRT[1,0][1,B]
+[0,1]RRT[1,0] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+[ ,1]JJJ[ ,B] -> HHH[ ,1][ ,B]
+[ ,0]HHH[ ,1] -> VVV[ ,0][ ,0]
+[ ,1]VVV[ ,0] -> VVV[ ,1][ ,0]
+[ ,0]VVV[ ,1] -> VVV[ ,0][ ,1]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,1]MML[1,b] -> MML[1,1][1,b]
+MML[1,1] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,0]MMK[1,b] -> MMK[0,0][1,b]
+[1,1]MMK[0,0] -> MMM[1,1][0,b]
+MMM[1,1] -> [1,0]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,b]MML[1,b] -> MML[0,b][1,b]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,b]SSS[1,b] -> SSS[1,b][1,b]
+[0,b]SSS[1,b] -> SSS[0,b][1,b]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,1]TTT[1,1] -> TTT[0,1][1,1]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,1]MML[1,b] -> MML[1,1][1,b]
+MML[1,1] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,1]MMK[1,b] -> MMK[0,1][1,b]
+MMK[0,1] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,a]MML[1,b] -> MML[0,a][1,b]
+[1,0]MML[0,a] -> MML[1,0][0,a]
+MML[1,0] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,b]SSS[1,b] -> SSS[1,b][1,b]
+[0,a]SSS[1,b] -> SSS[0,a][1,b]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,1]SSF[ ,0] -> SSF[ ,1][ ,0]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,1]MML[1,b] -> MML[1,1][1,b]
+MML[1,1] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,b]MMK[1,b] -> MMK[1,b][1,b]
+[0,0]MMK[1,b] -> MMK[0,0][1,b]
+[1,0]MMK[0,0] -> MMM[1,0][0,b]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,b] -> [0,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+PPP[ ,a] -> [ ,0]PPP
+[ ,0]PPP[ ,B] -> RRY[ ,0][ ,B]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,1]RRT[1,1] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+[ ,0]JJJ[ ,B] -> HHH[ ,0][ ,B]
+[ ,0]HHH[ ,0] -> HHH[ ,0][ ,1]
+[ ,1]HHH[ ,0] -> HHH[ ,1][ ,1]
+[ ,0]HHH[ ,1] -> VVV[ ,0][ ,0]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,1] -> QQQ[ ,1][ ,1]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,0]QQQ[ ,0] -> QQQ[ ,0][ ,0]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,1]MMK[1,a] -> MMK[1,1][1,a]
+MMK[1,1] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,a]MML[1,a] -> MML[1,a][1,a]
+[0,0]MML[1,a] -> MML[0,0][1,a]
+MML[0,0] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,a]MML[1,a] -> MML[1,a][1,a]
+[0,a]MML[1,a] -> MML[0,a][1,a]
+[1,1]MML[0,a] -> MML[1,1][0,a]
+MML[1,1] -> [1,b]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,a]QQA[ ,*] -> SSS[1,a][ ,*]
+[1,a]SSS[1,a] -> SSS[1,a][1,a]
+[0,a]SSS[1,a] -> SSS[0,a][1,a]
+[1,b]SSS[0,a] -> SSS[1,b][0,a]
+[ ,$]SSS[1,b] -> SSS[ ,$][1,b]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,0]SSQ[ ,*] -> GGG[1,0][ ,*]
+[1,0]GGG[1,0] -> GGG[1,0][1,0]
+[0,0]GGG[1,0] -> GGG[0,0][1,0]
+[1,1]GGG[0,0] -> GGG[1,1][0,0]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,0]SSD[ ,*] -> MMK[1,0][ ,*]
+[1,0]MMK[1,0] -> MMM[1,0][1,b]
+[0,0]MMM[1,0] -> MMM[0,0][1,1]
+[1,1]MMM[0,0] -> MMM[1,1][0,1]
+MMM[1,1] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,1]MML[1,a] -> MML[0,1][1,a]
+MML[0,1] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,b]MML[1,a] -> MML[0,b][1,a]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,b]SSS[1,a] -> SSS[0,b][1,a]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,1]TTT[1,0] -> TTT[0,1][1,0]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,1]SSD[ ,*] -> MMK[1,1][ ,*]
+MMK[1,1] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,a]SSD[ ,*] -> MMK[1,a][ ,*]
+[1,0]MMK[1,a] -> MMK[1,0][1,a]
+[0,1]MMK[1,0] -> MMM[0,1][1,b]
+MMM[0,1] -> [0,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,b]MML[1,a] -> MML[1,b][1,a]
+[0,0]MML[1,b] -> MML[0,0][1,b]
+MML[0,0] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,a]SSF[ ,*] -> MML[1,a][ ,*]
+[1,b]MML[1,a] -> MML[1,b][1,a]
+[0,a]MML[1,b] -> MML[0,a][1,b]
+[1,0]MML[0,a] -> MML[1,0][0,a]
+MML[1,0] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,b]QQA[ ,b] -> QQA[ ,b][ ,b]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,a]QQA[ ,*] -> SSS[1,a][ ,*]
+[1,b]SSS[1,a] -> SSS[1,b][1,a]
+[0,a]SSS[1,b] -> SSS[0,a][1,b]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,b] -> [ ,1]SSW
+[ ,1]SSW[ ,B] -> SSQ[ ,1][ ,B]
+[ ,1]SSQ[ ,1] -> SSQ[ ,1][ ,1]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,0]SSQ[ ,*] -> GGG[1,0][ ,*]
+[1,1]GGG[1,0] -> GGG[1,1][1,0]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[1,0] -> TTT[1,1][1,0]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,1] -> [ ,1]NNN
+[ ,1]NNN[ ,B] -> QQA[ ,1][ ,B]
+[ ,1]QQA[ ,1] -> SSD[ ,1][ ,b]
+[ ,0]SSD[ ,1] -> SSD[ ,0][ ,1]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,0]SSD[ ,*] -> MMK[1,0][ ,*]
+[1,1]MMK[1,0] -> MMM[1,1][1,b]
+MMM[1,1] -> [1,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,b] -> [ ,b]NNN
+[ ,b]NNN[ ,B] -> QQA[ ,b][ ,B]
+[ ,1]QQA[ ,b] -> QQA[ ,1][ ,b]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,0]MMK[1,0] -> MMM[0,0][1,b]
+[1,0]MMM[0,0] -> MMM[1,0][0,1]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,1] -> [0,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,b] -> [ ,1]PPP
+[ ,1]PPP[ ,B] -> RRY[ ,1][ ,B]
+[ ,1]RRY[ ,1] -> RRY[ ,1][ ,1]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,1]RRT[1,1] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+[ ,1]JJJ[ ,B] -> HHH[ ,1][ ,B]
+[ ,1]HHH[ ,1] -> VVV[ ,1][ ,0]
+[ ,0]VVV[ ,1] -> VVV[ ,0][ ,1]
+[ ,0]VVV[ ,0] -> VVV[ ,0][ ,0]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,0] -> QQQ[ ,1][ ,0]
+[ ,0]QQQ[ ,1] -> QQQ[ ,0][ ,1]
+[ ,0]QQQ[ ,0] -> QQQ[ ,0][ ,0]
+[ ,*]QQQ[ ,0] -> QQQ[ ,*][ ,0]
+QQQ[ ,*] -> [ ,*]TTT
+[ ,*]TTT[ ,0] -> TTT[ ,*][ ,0]
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,0]MML[1,a] -> MML[0,0][1,a]
+MML[0,0] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,a]MML[1,a] -> MML[0,a][1,a]
+[1,1]MML[0,a] -> MML[1,1][0,a]
+MML[1,1] -> [1,b]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,a]SSS[1,a] -> SSS[0,a][1,a]
+[1,b]SSS[0,a] -> SSS[1,b][0,a]
+[ ,$]SSS[1,b] -> SSS[ ,$][1,b]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,0]TTT[1,0] -> TTT[0,0][1,0]
+[1,1]TTT[0,0] -> TTT[1,1][0,0]
+[ ,$]TTT[1,1] -> TTT[ ,$][1,1]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,0]MMK[1,0] -> MMM[0,0][1,b]
+[1,1]MMM[0,0] -> MMM[1,1][0,1]
+MMM[1,1] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,1]MML[1,b] -> MML[0,1][1,b]
+MML[0,1] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,b]MML[1,b] -> MML[0,b][1,b]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,b]SSS[1,b] -> SSS[1,b][1,b]
+[0,b]SSS[1,b] -> SSS[0,b][1,b]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,1]TTT[1,1] -> TTT[0,1][1,1]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,1]MML[1,a] -> MML[0,1][1,a]
+MML[0,1] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,b]MML[1,a] -> MML[0,b][1,a]
+[1,0]MML[0,b] -> MML[1,0][0,b]
+MML[1,0] -> [1,a]NNN
+NNN[0,b] -> [0,b]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,b]SSS[1,a] -> SSS[0,b][1,a]
+[1,a]SSS[0,b] -> SSS[1,a][0,b]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,b] -> [0,1]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,1]TTT[1,0] -> TTT[0,1][1,0]
+[1,0]TTT[0,1] -> TTT[1,0][0,1]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,1] -> [0,1]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,1]MMK[1,0] -> MMM[0,1][1,b]
+MMM[0,1] -> [0,0]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,0]MML[1,b] -> MML[0,0][1,b]
+MML[0,0] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,b]MML[1,b] -> MML[1,b][1,b]
+[0,a]MML[1,b] -> MML[0,a][1,b]
+[1,0]MML[0,a] -> MML[1,0][0,a]
+MML[1,0] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,b]SSS[1,b] -> SSS[1,b][1,b]
+[0,a]SSS[1,b] -> SSS[0,a][1,b]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,1]TTT[1,1] -> TTT[1,1][1,1]
+[0,0]TTT[1,1] -> TTT[0,0][1,1]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,1]MMK[1,b] -> MMK[1,1][1,b]
+MMK[1,1] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,0]QQA[ ,b] -> QQA[ ,0][ ,b]
+[ ,0]QQA[ ,0] -> SSF[ ,0][ ,a]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,0]MML[1,a] -> MML[0,0][1,a]
+MML[0,0] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,0]QQA[ ,a] -> QQA[ ,0][ ,a]
+[ ,*]QQA[ ,0] -> SSF[ ,*][ ,a]
+[1,b]SSF[ ,*] -> MML[1,b][ ,*]
+[1,a]MML[1,b] -> MML[1,a][1,b]
+[0,a]MML[1,a] -> MML[0,a][1,a]
+[1,0]MML[0,a] -> MML[1,0][0,a]
+MML[1,0] -> [1,a]NNN
+NNN[0,a] -> [0,a]NNN
+NNN[1,a] -> [1,a]NNN
+NNN[1,b] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,a] -> [ ,a]NNN
+NNN[ ,b] -> [ ,b]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,b]QQA[ ,a] -> QQA[ ,b][ ,a]
+[ ,a]QQA[ ,b] -> QQA[ ,a][ ,b]
+[ ,a]QQA[ ,a] -> QQA[ ,a][ ,a]
+[ ,*]QQA[ ,a] -> QQA[ ,*][ ,a]
+[1,b]QQA[ ,*] -> SSS[1,b][ ,*]
+[1,a]SSS[1,b] -> SSS[1,a][1,b]
+[0,a]SSS[1,a] -> SSS[0,a][1,a]
+[1,a]SSS[0,a] -> SSS[1,a][0,a]
+[ ,$]SSS[1,a] -> SSS[ ,$][1,a]
+SSS[ ,$] -> [ ,$]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[0,a] -> [0,0]SSW
+SSW[1,a] -> [1,0]SSW
+SSW[1,b] -> [1,1]SSW
+SSW[ ,*] -> [ ,*]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,a] -> [ ,0]SSW
+SSW[ ,b] -> [ ,1]SSW
+SSW[ ,a] -> [ ,0]SSW
+[ ,0]SSW[ ,B] -> SSQ[ ,0][ ,B]
+[ ,1]SSQ[ ,0] -> SSQ[ ,1][ ,0]
+[ ,0]SSQ[ ,1] -> SSQ[ ,0][ ,1]
+[ ,0]SSQ[ ,0] -> SSQ[ ,0][ ,0]
+[ ,*]SSQ[ ,0] -> SSQ[ ,*][ ,0]
+[1,1]SSQ[ ,*] -> GGG[1,1][ ,*]
+GGG[1,1] -> [1,1]TTT
+[1,1]TTT[ ,*] -> TTT[1,1][ ,*]
+[1,0]TTT[1,1] -> TTT[1,0][1,1]
+[0,0]TTT[1,0] -> TTT[0,0][1,0]
+[1,0]TTT[0,0] -> TTT[1,0][0,0]
+[ ,$]TTT[1,0] -> TTT[ ,$][1,0]
+TTT[ ,$] -> [ ,$]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[0,0] -> [0,0]NNN
+NNN[1,0] -> [1,0]NNN
+NNN[1,1] -> [1,1]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,0] -> [ ,0]NNN
+[ ,0]NNN[ ,B] -> QQA[ ,0][ ,B]
+[ ,1]QQA[ ,0] -> SSF[ ,1][ ,a]
+[ ,0]SSF[ ,1] -> SSF[ ,0][ ,1]
+[ ,0]SSF[ ,0] -> SSF[ ,0][ ,0]
+[ ,*]SSF[ ,0] -> SSF[ ,*][ ,0]
+[1,1]SSF[ ,*] -> MML[1,1][ ,*]
+MML[1,1] -> [1,b]NNN
+NNN[ ,*] -> [ ,*]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,0] -> [ ,0]NNN
+NNN[ ,1] -> [ ,1]NNN
+NNN[ ,a] -> [ ,a]NNN
+[ ,a]NNN[ ,B] -> QQA[ ,a][ ,B]
+[ ,1]QQA[ ,a] -> QQA[ ,1][ ,a]
+[ ,0]QQA[ ,1] -> SSD[ ,0][ ,b]
+[ ,0]SSD[ ,0] -> SSD[ ,0][ ,0]
+[ ,*]SSD[ ,0] -> SSD[ ,*][ ,0]
+[1,b]SSD[ ,*] -> MMK[1,b][ ,*]
+[1,0]MMK[1,b] -> MMK[1,0][1,b]
+[0,0]MMK[1,0] -> MMM[0,0][1,b]
+[1,0]MMM[0,0] -> MMM[1,0][0,1]
+[ ,$]MMM[1,0] -> MMM[ ,$][1,1]
+[ ,1]MMM[ ,$] -> PPP[ ,1][ ,$]
+PPP[ ,1] -> [ ,1]PPP
+PPP[ ,$] -> [ ,$]PPP
+PPP[1,1] -> [1,1]PPP
+PPP[0,1] -> [0,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[1,b] -> [1,1]PPP
+PPP[ ,*] -> [ ,*]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,0] -> [ ,0]PPP
+PPP[ ,b] -> [ ,1]PPP
+PPP[ ,a] -> [ ,0]PPP
+[ ,0]PPP[ ,B] -> RRY[ ,0][ ,B]
+[ ,1]RRY[ ,0] -> RRY[ ,1][ ,0]
+[ ,0]RRY[ ,1] -> RRY[ ,0][ ,1]
+[ ,0]RRY[ ,0] -> RRY[ ,0][ ,0]
+[ ,*]RRY[ ,0] -> RRY[ ,*][ ,0]
+[1,1]RRY[ ,*] -> RRT[1,1][ ,*]
+[1,1]RRT[1,1] -> RRT[1,1][1,B]
+[0,1]RRT[1,1] -> RRT[0,1][1,B]
+[1,1]RRT[0,1] -> RRT[1,1][0,B]
+[ ,$]RRT[1,1] -> RRT[ ,$][1,B]
+[ ,1]RRT[ ,$] -> RRR[ ,1][ ,$]
+[ ,1]RRR[ ,1] -> RRR[ ,1][ ,1]
+[ ,0]RRR[ ,1] -> RRR[ ,0][ ,1]
+[ ,1]RRR[ ,0] -> RRR[ ,1][ ,0]
+[ ,B]RRR[ ,1] -> RRR[ ,B][ ,1]
+RRR[ ,B] -> [ ,B]WWY
+[ ,B]WWY[ ,1] -> WWY[ ,B][ ,1]
+WWY[ ,B] -> [ ,B]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,0] -> [ ,0]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+[ ,$]WWR[1,B] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,0]WWY[ ,1] -> WWY[ ,0][ ,1]
+[ ,b]WWY[ ,0] -> WWY[ ,b][ ,0]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,0] -> [ ,a]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,1] -> [ ,1]WWE
+WWE[ ,$] -> [ ,$]WWE
+WWE[1,1] -> [1,1]WWE
+[1,1]WWE[0,B] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,1]WWY[ ,1] -> WWY[ ,1][ ,1]
+[ ,a]WWY[ ,1] -> WWY[ ,a][ ,1]
+WWY[ ,a] -> [ ,a]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,1] -> [ ,1]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+[0,0]WWR[1,B] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,1]WWY[ ,$] -> WWY[ ,1][ ,$]
+[ ,b]WWY[ ,1] -> WWY[ ,b][ ,1]
+WWY[ ,b] -> [ ,b]WWT
+WWT[ ,1] -> [ ,b]WWR
+WWR[ ,$] -> [ ,$]WWR
+WWR[1,1] -> [1,1]WWR
+WWR[0,0] -> [0,0]WWR
+WWR[1,1] -> [1,1]WWR
+[1,1]WWR[1,B] -> WWY[1,1][1,1]
+[0,0]WWY[1,1] -> WWY[0,0][1,1]
+[1,1]WWY[0,0] -> WWY[1,1][0,0]
+[ ,$]WWY[1,1] -> WWY[ ,$][1,1]
+[ ,b]WWY[ ,$] -> WWY[ ,b][ ,$]
+WWY[ ,b] -> [ ,b]WWT
+[ ,b]WWT[ ,$] -> WWW[ ,b][ ,$]
+[ ,b]WWW[ ,b] -> WWW[ ,b][ ,1]
+[ ,a]WWW[ ,b] -> WWW[ ,a][ ,1]
+[ ,b]WWW[ ,a] -> WWW[ ,b][ ,0]
+[ ,B]WWW[ ,b] -> WWW[ ,B][ ,1]
+WWW[ ,B] -> [ ,B]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,0] -> [ ,0]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,1] -> [ ,1]XXX
+XXX[ ,$] -> [ ,$]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[0,0] -> [0,0]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[1,1] -> [1,1]XXX
+XXX[ ,*] -> [ ,*]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+JJJ[ ,1] -> [ ,1]JJJ
+JJJ[ ,0] -> [ ,0]JJJ
+[ ,0]JJJ[ ,B] -> HHH[ ,0][ ,B]
+[ ,1]HHH[ ,0] -> HHH[ ,1][ ,1]
+[ ,0]HHH[ ,1] -> VVV[ ,0][ ,0]
+[ ,0]VVV[ ,0] -> VVV[ ,0][ ,0]
+[ ,*]VVV[ ,0] -> VVV[ ,*][ ,0]
+VVV[ ,*] -> [ ,*]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,0] -> [ ,0]QQE
+QQE[ ,1] -> [ ,1]QQW
+[ ,1]QQW[ ,B] -> STOP[ ,1][ ,B]
+[ ,0]STOP -> STOP STOP
+[ ,0]STOP -> STOP STOP
+[ ,0]STOP -> STOP STOP
+STOP[ ,1] -> STOP STOP
+[ ,*]STOP -> STOP STOP
+[1,1]STOP -> STOP1STOP
+[1,1]STOP -> STOP1STOP
+[0,0]STOP -> STOP0STOP
+[1,1]STOP -> STOP1STOP
+STOP[ ,B] -> STOP STOP
+STOP[ ,B] -> STOP STOP
+STOP[ ,B] -> STOP STOP
+[ ,$]STOP -> STOP STOP
+[ ,1]STOP -> STOP STOP
+[ ,1]STOP -> STOP STOP
+[ ,0]STOP -> STOP STOP
+[ ,1]STOP -> STOP STOP
+[ ,B]STOP -> STOP STOP
+[ ,B]STOP -> STOP STOP
+[ ,B]STOP -> STOP STOP
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
+STOP -> 
